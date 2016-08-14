@@ -1,0 +1,85 @@
+{
+  "sandbox": {
+    "muda": {
+      "state": [], 
+      "version": {
+        "librosa": "0.4.2", 
+        "muda": "0.1.1", 
+        "pysoundfile": "0.8.1", 
+        "jams": "0.2.1"
+      }, 
+      "history": [
+        {
+          "transformer": {
+            "params": {
+              "upper": 0.3, 
+              "lower": -0.3, 
+              "n_samples": 4
+            }, 
+            "__class__": "LogspaceTimeStretch"
+          }, 
+          "state": {
+            "rate": 1.0717734625362931
+          }
+        }
+      ]
+    }
+  }, 
+  "annotations": [
+    {
+      "namespace": "tag_open", 
+      "sandbox": {
+        "classID": 1, 
+        "end": 2.264294, 
+        "fold": 1, 
+        "start": 2.2025080000000004, 
+        "salience": 2, 
+        "slice_file_name": "87275-1-3-0.wav", 
+        "class": "car_horn", 
+        "fsID": 87275
+      }, 
+      "time": 0.0, 
+      "duration": 0.057648376415092878, 
+      "annotation_metadata": {
+        "annotation_tools": "Sonic Visualiser", 
+        "curator": {
+          "name": "Justin Salamon", 
+          "email": "justin.salamon@nyu.edu"
+        }, 
+        "annotator": {
+          "annotators": [
+            {
+              "name": "Justin Salamon", 
+              "email": "justin.salamon@nyu.edu"
+            }, 
+            {
+              "name": "Christopher Jacoby", 
+              "email": "christopher.jacoby@gmail.com"
+            }
+          ]
+        }, 
+        "version": "1.0", 
+        "corpus": "UrbanSound8K", 
+        "annotation_rules": "See: J. Salamon, C. Jacoby and J. P. Bello, \"A Dataset and Taxonomy for Urban Sound Research\", in Proc. 22nd ACM International Conference on Multimedia, Orlando, USA, Nov. 2014.", 
+        "validation": "", 
+        "data_source": "https://serv.cusp.nyu.edu/projects/urbansounddataset/"
+      }, 
+      "data": [
+        {
+          "duration": 0.057648000000000005, 
+          "confidence": 1.0, 
+          "value": "car_horn", 
+          "time": 0.0
+        }
+      ]
+    }
+  ], 
+  "file_metadata": {
+    "jams_version": "0.2.1", 
+    "title": "87275-1-3-0.wav", 
+    "identifiers": {}, 
+    "release": "1.0", 
+    "duration": 0.057648376415092878, 
+    "artist": "UrbanSound8K"
+  }
+}

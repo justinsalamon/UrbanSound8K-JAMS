@@ -1,0 +1,92 @@
+{
+  "sandbox": {
+    "muda": {
+      "state": [], 
+      "version": {
+        "librosa": "0.4.2", 
+        "muda": "0.1.1", 
+        "pysoundfile": "0.8.1", 
+        "jams": "0.2.1"
+      }, 
+      "history": [
+        {
+          "transformer": {
+            "params": {
+              "files": [
+                "/Users/justin/datasets/UrbanSound8K/deepsonyc/background_noise/converted/150993__saphe__street-scene-1.wav", 
+                "/Users/justin/datasets/UrbanSound8K/deepsonyc/background_noise/converted/173955__saphe__street-scene-3.wav", 
+                "/Users/justin/datasets/UrbanSound8K/deepsonyc/background_noise/converted/207208__jormarp__high-street-of-gandia-valencia-spain.wav", 
+                "/Users/justin/datasets/UrbanSound8K/deepsonyc/background_noise/converted/268903__yonts__city-park-tel-aviv-israel.wav"
+              ], 
+              "weight_max": 0.5, 
+              "weight_min": 0.1, 
+              "n_samples": 1
+            }, 
+            "__class__": "BackgroundNoise"
+          }, 
+          "state": {
+            "weight": 0.17569518240629206, 
+            "filename": "/Users/justin/datasets/UrbanSound8K/deepsonyc/background_noise/converted/150993__saphe__street-scene-1.wav"
+          }
+        }
+      ]
+    }
+  }, 
+  "annotations": [
+    {
+      "namespace": "tag_open", 
+      "sandbox": {
+        "classID": 9, 
+        "end": 178.66718500000002, 
+        "fold": 6, 
+        "start": 174.66718500000002, 
+        "salience": 1, 
+        "slice_file_name": "155212-9-1-85.wav", 
+        "class": "street_music", 
+        "fsID": 155212
+      }, 
+      "time": 0, 
+      "duration": 4.0, 
+      "annotation_metadata": {
+        "annotation_tools": "Sonic Visualiser", 
+        "curator": {
+          "name": "Justin Salamon", 
+          "email": "justin.salamon@nyu.edu"
+        }, 
+        "annotator": {
+          "annotators": [
+            {
+              "name": "Justin Salamon", 
+              "email": "justin.salamon@nyu.edu"
+            }, 
+            {
+              "name": "Christopher Jacoby", 
+              "email": "christopher.jacoby@gmail.com"
+            }
+          ]
+        }, 
+        "version": "1.0", 
+        "corpus": "UrbanSound8K", 
+        "annotation_rules": "See: J. Salamon, C. Jacoby and J. P. Bello, \"A Dataset and Taxonomy for Urban Sound Research\", in Proc. 22nd ACM International Conference on Multimedia, Orlando, USA, Nov. 2014.", 
+        "validation": "", 
+        "data_source": "https://serv.cusp.nyu.edu/projects/urbansounddataset/"
+      }, 
+      "data": [
+        {
+          "duration": 4.0, 
+          "confidence": 1.0, 
+          "value": "street_music", 
+          "time": 0.0
+        }
+      ]
+    }
+  ], 
+  "file_metadata": {
+    "jams_version": "0.2.1", 
+    "title": "155212-9-1-85.wav", 
+    "identifiers": {}, 
+    "release": "1.0", 
+    "duration": 4.0, 
+    "artist": "UrbanSound8K"
+  }
+}

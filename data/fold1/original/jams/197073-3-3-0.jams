@@ -1,0 +1,71 @@
+{
+  "sandbox": {
+    "muda": {
+      "state": [], 
+      "version": {
+        "jams": "0.2.1", 
+        "muda": "0.1.1", 
+        "pysoundfile": "0.8.1", 
+        "librosa": "0.4.2"
+      }, 
+      "history": []
+    }
+  }, 
+  "annotations": [
+    {
+      "namespace": "tag_open", 
+      "sandbox": {
+        "classID": 3, 
+        "end": 7.610753, 
+        "fold": 1, 
+        "start": 6.653364999999999, 
+        "salience": 1, 
+        "slice_file_name": "197073-3-3-0.wav", 
+        "class": "dog_bark", 
+        "fsID": 197073
+      }, 
+      "time": 0, 
+      "duration": 0.9573880000000008, 
+      "annotation_metadata": {
+        "annotation_tools": "Sonic Visualiser", 
+        "curator": {
+          "name": "Justin Salamon", 
+          "email": "justin.salamon@nyu.edu"
+        }, 
+        "annotator": {
+          "annotators": [
+            {
+              "name": "Justin Salamon", 
+              "email": "justin.salamon@nyu.edu"
+            }, 
+            {
+              "name": "Christopher Jacoby", 
+              "email": "christopher.jacoby@gmail.com"
+            }
+          ]
+        }, 
+        "version": "1.0", 
+        "corpus": "UrbanSound8K", 
+        "annotation_rules": "See: J. Salamon, C. Jacoby and J. P. Bello, \"A Dataset and Taxonomy for Urban Sound Research\", in Proc. 22nd ACM International Conference on Multimedia, Orlando, USA, Nov. 2014.", 
+        "validation": "", 
+        "data_source": "https://serv.cusp.nyu.edu/projects/urbansounddataset/"
+      }, 
+      "data": [
+        {
+          "duration": 0.957388, 
+          "confidence": 1.0, 
+          "value": "dog_bark", 
+          "time": 0.0
+        }
+      ]
+    }
+  ], 
+  "file_metadata": {
+    "jams_version": "0.2.1", 
+    "title": "197073-3-3-0.wav", 
+    "identifiers": {}, 
+    "release": "1.0", 
+    "duration": 0.9573880000000008, 
+    "artist": "UrbanSound8K"
+  }
+}

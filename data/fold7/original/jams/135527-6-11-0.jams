@@ -1,0 +1,71 @@
+{
+  "sandbox": {
+    "muda": {
+      "state": [], 
+      "version": {
+        "jams": "0.2.1", 
+        "muda": "0.1.1", 
+        "pysoundfile": "0.8.1", 
+        "librosa": "0.4.2"
+      }, 
+      "history": []
+    }
+  }, 
+  "annotations": [
+    {
+      "namespace": "tag_open", 
+      "sandbox": {
+        "classID": 6, 
+        "end": 38.164694, 
+        "fold": 7, 
+        "start": 36.274749, 
+        "salience": 2, 
+        "slice_file_name": "135527-6-11-0.wav", 
+        "class": "gun_shot", 
+        "fsID": 135527
+      }, 
+      "time": 0, 
+      "duration": 1.8899449999999973, 
+      "annotation_metadata": {
+        "annotation_tools": "Sonic Visualiser", 
+        "curator": {
+          "name": "Justin Salamon", 
+          "email": "justin.salamon@nyu.edu"
+        }, 
+        "annotator": {
+          "annotators": [
+            {
+              "name": "Justin Salamon", 
+              "email": "justin.salamon@nyu.edu"
+            }, 
+            {
+              "name": "Christopher Jacoby", 
+              "email": "christopher.jacoby@gmail.com"
+            }
+          ]
+        }, 
+        "version": "1.0", 
+        "corpus": "UrbanSound8K", 
+        "annotation_rules": "See: J. Salamon, C. Jacoby and J. P. Bello, \"A Dataset and Taxonomy for Urban Sound Research\", in Proc. 22nd ACM International Conference on Multimedia, Orlando, USA, Nov. 2014.", 
+        "validation": "", 
+        "data_source": "https://serv.cusp.nyu.edu/projects/urbansounddataset/"
+      }, 
+      "data": [
+        {
+          "duration": 1.8899450000000002, 
+          "confidence": 1.0, 
+          "value": "gun_shot", 
+          "time": 0.0
+        }
+      ]
+    }
+  ], 
+  "file_metadata": {
+    "jams_version": "0.2.1", 
+    "title": "135527-6-11-0.wav", 
+    "identifiers": {}, 
+    "release": "1.0", 
+    "duration": 1.8899449999999973, 
+    "artist": "UrbanSound8K"
+  }
+}
