@@ -2,7 +2,6 @@
 JAMS annotation files for the original and augmented UrbanSound8K dataset, provided as supplementary material to:
 
 J. Salamon and J. P. Bello, **"Deep Convolutional Neural Networks and Data Augmentation for Environmental Sound Classification,"** submitted, 2016.
-[Read on arXiv.org]
 
 ## Description
 This repository contains annotations in [JAMS](github.com/marl/jams/) format [1,2] for the [UrbanSound8k dataset](https://serv.cusp.nyu.edu/projects/urbansounddataset/index.html) [3]. It also contains the extended JAMS files returned by the [MUDA audio data augmentation library](https://github.com/bmcfee/muda) [4], which contain the deformation parameters utilized to generate the augmented UrbanSound8K training set used in [5].
