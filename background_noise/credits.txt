@@ -1,0 +1,13 @@
+The sound files in this folder were downloaded from freesound.org
+
+street-scene-1 by saphe
+street-scene-3 by saphe
+high-street-of-gandia-valencia-spain by jormarp
+city-park-tel-aviv-israel by yonts
+
+URLs:
+
+http://freesound.org/people/saphe/sounds/150993/
+http://freesound.org/people/saphe/sounds/173955/
+http://freesound.org/people/Jormarp/sounds/207208/
+http://freesound.org/people/yonts/sounds/268903/
